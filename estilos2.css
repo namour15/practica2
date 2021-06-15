@@ -1,0 +1,382 @@
+body{
+    background: #303034 ;
+}
+header{
+    background-position:bottom;
+
+    background-size: cover;
+    height: 130px;
+    width: 100%;
+    
+}
+
+#main{
+    width:960px;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text-center{
+    text-align:center;
+}
+
+.navbar{
+    min-height: 90px;
+    color: white;
+    
+}
+
+
+
+h1{
+    margin: 50px 10px 20px 50px ; /* margen externo */
+    font-size: 500%;
+    text-align: left;
+    font-family: 'Merriweather', serif;
+}
+
+
+
+.nav-boton{
+    
+    background: #303034;
+    color: #fff;
+    padding: 10px 35px; /* margen interno  */
+    text-decoration: none; /* se le quita la linea de abajo que tiene */
+    border: solid 0.5em #8f9496;
+    border-radius: 2em;
+    height: 100%;
+    
+    text-align: center;
+    display: none;
+    
+}
+
+aside{
+    display: inline-block;
+    width:300px;
+    min-height: 400px;
+    float:right;
+}
+
+.container{
+    /* display: inline-block; */
+     display: flex;    /* su display es flexible */
+     margin: 0 auto;
+     width: 90%;
+}
+
+#columna{
+    background: #3a8ca3;
+    padding: 10px;
+    width: 15%;
+    margin: 10px;
+}
+
+video{
+   /* position: flex;
+    min-width: 100%;
+    min-height: 200%;
+    top: 100%;
+    left: 100%;*/
+    width: 100%;
+    
+}
+
+.separacion{
+    background: #ffffff;
+     margin: 30px 20px 20px 20px ;
+     /* margin-bottom: 20px; */ 
+     /* margen inferior de los elementos */
+     padding: 0px; /* margen interno  */
+     font-size: 100%;
+}
+
+h2{
+    color:#874ace;
+    font-size: 60px;
+    font-family: 'Merriweather', serif;
+    font-family: 'Zilla Slab', serif;
+    text-align: center;
+
+}
+
+h3{
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+    color: #7d7e7e;
+    margin: 30px 20px 20px 20px;
+}
+    
+.lista{
+    color:#025955;
+    font-size: 30px;
+    font-family: 'Abel', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Zilla Slab', serif;
+}
+
+.btnprecio{
+    background: salmon;
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.btnprecio:hover{
+    background: rgb(230, 83, 67);
+}
+
+.columna3{
+    background: #e4bac3;
+    padding: 10px;
+    width: 45%;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 2em;
+    font-family: 'Abel', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Zilla Slab', serif;
+    border: 10px solid blanchedalmond;
+    box-shadow: 10px 20px rgb(143, 143, 143);
+    width: 30%;
+    box-sizing: border-box;
+}
+.precio{
+    font-size: 60px;
+}
+
+ th,td{
+    font-size: 20px;
+    color: #046582;
+    font-family: 'Abel', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Zilla Slab', serif;
+    padding:20px;
+}
+
+.tabla2{
+    width: 80%;
+    text-align: center;
+    border:indigo 1px solid;
+    padding:50px;
+
+}
+
+button{/* se le asigna un color al boton */
+    background: #4A47A3;
+    color: #8AC4D0;
+    border: 2px solid blanchedalmond;
+}
+
+button:hover{ /* diferente color cuando se pasa el mouse el boton */
+    background: #94EBCD;
+    color: #33837a;
+}
+
+ button:active{     /* diferente color cuando se presiona el boton */
+    background: #073631;
+}
+
+.red {
+    color: red;
+}
+.blanco{
+    color: white;
+}
+ 
+#footer {
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    background-color: black;
+    color: white;
+    text-align: center;
+    bottom: 50px;
+    left: 0;
+    padding-bottom: 50%;
+}
+
+  
+  .form-dark .md-form label {
+    color: #fff;
+  }
+  .form-dark input[type=text]:focus:not([readonly]) {
+    border-bottom: 1px solid #00C851;
+    -webkit-box-shadow: 0 1px 0 0 #00C851;
+    box-shadow: 0 1px 0 0 #00C851;
+  }
+  .form-dark input[type=text]:focus:not([readonly]) + label {
+    color: #fff;
+  }
+  .form-dark textarea.md-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #00C851;
+    box-shadow: 0 1px 0 0 #00C851;
+    color: #fff;
+  }
+  .form-dark textarea.md-textarea  {
+    color: #fff;
+  }
+  .form-dark .form-control, .form-dark .form-control:focus {
+    color: #fff;
+  }
+  .form-dark .md-form textarea.md-textarea:focus:not([readonly])+label {
+    color: #fff;
+  }
+
+  /*carrousel*/
+
+  .contenedor {
+	max-width: 1200px;
+	width: 90%;
+	margin: auto;
+}
+
+/* --- --- CONTENEDOR PRINCIPAL --- --- */
+
+.contenido-principal {
+	margin-bottom: 50px;
+	display: flex;
+	align-items: center;
+}
+
+.contenido-principal__imagen {
+	vertical-align: top;
+	margin-right: 20px;
+	width: 50%;
+	max-width: 550px;
+}
+
+.contenido-principal__contenedor {
+	width: 50%;
+}
+
+.contenido-principal__titulo {
+	font-weight: normal;
+	font-size: 28px;
+}
+
+.contenido-principal__resumen {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 30px;
+	color: #CFCFCF;
+}
+
+/* --- --- CAROUSEL --- --- */
+.carousel__contenedor {
+	position: relative;
+}
+
+.carousel__anterior,
+.carousel__siguiente {
+	position: absolute;
+	display: block;
+	width: 30px;
+	height: 30px;
+	border: none;
+	top: calc(50% - 35px);
+	cursor: pointer;
+	line-height: 30px;
+	text-align: center;
+	background: none;
+	color: #fff;
+	opacity: 20%;
+}
+
+.carousel__anterior:hover,
+.carousel__siguiente:hover {
+	opacity: 100%;
+}
+
+.carousel__anterior {
+	left: -30px;
+}
+
+.carousel__siguiente {
+	right: -30px;
+}
+
+.carousel__lista {
+	overflow: hidden;
+}
+
+.carousel__elemento {
+	text-align: center;
+}
+
+.carousel__indicadores .glider-dot {
+	display: block;
+	width: 30px;
+	height: 4px;
+	background: #fff;
+	opacity: .2;
+	border-radius: 0;
+}
+
+.carousel__indicadores .glider-dot:hover {
+	opacity: .5;
+}
+
+.carousel__indicadores .glider-dot.active {
+	opacity: 1;
+}
+
+@media screen and (max-width: 800px) {
+	body {
+		padding: 40px 0;
+	}
+
+	.contenido-principal {
+		flex-direction: column;
+	}
+
+	.contenido-principal > * {
+		width: 100%;
+	}
+}
+/*Media queries*/
+@media(max-width:992px){ /*despues de los 900 pixeles se hace pequeño el menu*/
+    
+    #navbar{
+        position: relative !important;
+    }
+    nav{
+        
+        flex-direction: column; /*indicamos que se pongan como columna, uno debajo de otro*/
+        display: inline-block;
+        
+    }
+    .nav1{
+        margin: 10px 0;/*se deja un margen de 5 px y 0 px a los lados*/
+        display: flex;
+        text-align: center;
+    }
+
+    .nav-boton{
+        display: inline-block; 
+         
+        
+    }
+     
+    .desaparece{/*clase para desaparecer los botones*/
+        display: none;
+    }
+
+    .columna3{
+        width: 45%;
+        margin-bottom: 20px;
+    }
+    .table2{
+        width:100%;
+    }
+
+}
+
+

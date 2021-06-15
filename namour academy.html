@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="es"><!--Declaramos el idioma con el que vamos a trabajar -->
+<head> <!-- cabecera del documento, lo que no se muestra -->
+    <meta charset="UTF-8"> <!-- metadato que indica al servidor que el contenido de la pagina es UTF-8 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- compatibilidad del navegador  -->
+    <meta name="Author" content="Ana Namour">
+    <meta name="Descripcion" content="termomirventila es una empresa de aire aconcicionado y ventilacion industrial para cualquier espacio.">
+    <!-- metadato que da una descripcion de la pagina -->
+    <title>NAMOUR ACADEMY</title> <!--Titulo de la pagina web-->
+    <link rel="stylesheet" href="estilos2.css"><!--libreria css-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap" rel="stylesheet"><!--fuente de letra de google-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Zilla+Slab:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Merriweather:ital,wght@1,900&family=Zilla+Slab:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Merriweather:ital,wght@1,900&family=Zilla+Slab:ital@1&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ea5bbc99ca.js" crossorigin="anonymous"></script> <!--kit code para font awesome-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <meta name= "viewport" content="width=device-width, inicial-scale=1.0"><!--etiqueta viewport-->
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script><!--Glider.js-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
+    <script src="scrollreveal.js"></script>
+<script>
+$(document).ready(function() {
+    var percent = 0;
+ 
+    timerId = setInterval(function() {
+        //increment progress bar
+        percent += 5;
+        $('.progress-bar').css('width', percent+'%');
+        $('.progress-bar').attr('aria-valuenow', percent);
+        $('.progress-bar').text(percent+'%');
+ 
+        //complete
+        if (percent == 100) {
+            clearInterval(timerId);
+            $('.information').show();
+        }
+ 
+    }, 1000);
+});
+</script>  <!--progress bar-->
+<script src="app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="estilos2.css">
+</head>     <!--Aqui acaba la cabecera-->
+
+
+<body> <!-- empieza el cuerpo de la pagina -->
+
+    
+    <header><!-- encabezado de la pagina -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-transparent position-absolute w-100"><!-- seccion que proporciona enlaces de navegacion -->
+                <!--se agrega una imagen, alt nos ayuda por si la imagen no esta disponible-->
+                <div class="container-fluid">
+                  <img src="CABEZA.png" alt="logo" width="400" height="130" ></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                      <li class="nav-item d-flex">
+                        <a class="nav-link text-white" aria-current="page" href="#inicio">INICIO</a>
+                      </li>
+                      <li class="nav-item d-flex">
+                        <a class="nav-link text-white" href="#¿QUIÉNES">¿QUIÉNES SOMOS?</a>
+                      </li>
+                      
+                      <li class="nav-item d-flex">
+                        <a class="nav-link text-white" href="#EDUCACION">EDUCACION MUSICAL</a>
+                      </li>
+
+                      <li class="nav-item d-flex">
+                        <a class="nav-link text-white" href="#producto">PRODUCTOS</a>
+                      </li>
+                      <li class="nav-item d-flex">
+                        <a class="nav-link text-white" href="#Contacto">CONTACTO</a>
+                      </li>
+                      
+                    </ul>
+                    <form class="d-flex me-2">
+                      <input class="form-control me-2" type="search" placeholder="BUSCAR" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">BUSCAR</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+           
+          
+        
+    </header>
+
+    <section>
+        <video src="presentacion.mp4" width="1500" height="1000" autoplay loop muted></video>
+           
+    </section>
+
+    <p class="separacion">.</p><!--se hizo un parrafo que se utiliza como separacion -->
+    
+    <a name="¿QUIÉNES"></a>
+    <section class= "padre">
+        <p>
+            
+            
+            <div>
+                <h2><b><i class="fas fa-compact-disc"></i> ¿QUIÉNES SOMOS? </b><i class="fas fa-compact-disc"></i></h2><!--titutlo-->
+                <h3>
+                   Somos una academia de música comprometida con el aprendizaje de nuestros futuros musicos. Nos hemos dedicado a dar lo mejor de nosotros. Nuestros profesores son musicos egresados del conservatorio y otras instituciones y asi poder transmitir la pasión que tenemos y asi estar unidos por la música.          
+                <h3></h3>
+                   
+            
+            	<div class="contenedor">
+                               
+                    <div class="carousel">
+                        <div class="carousel__contenedor">
+                            <button aria-label="Anterior" class="carousel__anterior">
+                                <i class="fas fa-chevron-left"></i>
+                            </button>
+            
+                            <div class="carousel__lista">
+                                <div class="carousel__elemento">
+                                    <img src="violin1.jpg" alt="violin" width="400" height="200" >
+                                    
+                                </div>
+                                <div class="carousel__elemento">
+                                    <img src="piano.jpg" alt="PIANO" width="400" height="200" >
+                                    
+                                </div>
+                                <div class="carousel__elemento">
+                                    <img src="chelo.jpg" alt="CHELO" width="400" height="200" >
+                                    
+                                </div>
+                                <div class="carousel__elemento">
+                                    <img src="violins.jpg" alt="violines" width="400" height="200" >
+                                    
+                                </div>
+                
+                                <div class="carousel__elemento">
+                                    <img src="gente.jpg" alt="Canto">
+                                    
+                                </div>
+                                <div class="carousel__elemento">
+                                    <img src="sax.jpg" alt="Saxofon">
+                                    
+                                </div>
+                                <div class="carousel__elemento">
+                                    <img src="GUI.jpg" alt="guitarra">
+                                    
+                                </div>
+                                <div class="carousel__elemento">
+                                    <img src="drum.jpg" alt="bateria">
+                                    
+                                </div>
+                            </div>
+            
+                            <button aria-label="Siguiente" class="carousel__siguiente">
+                                <i class="fas fa-chevron-right"></i>
+                            </button>
+                        </div>
+            
+                        <div role="tablist" class="carousel__indicadores"></div>
+                    </div>
+                </div>
+            
+                <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+                <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+                <script src="app.js"></script>
+        </p>
+        
+    </section>
+
+    <p class="separacion">.</p><!--ejemplo -->
+
+    <a name="EDUCACION"></a>
+    <section class="container flex text-center">
+        
+            <div class="columna3" id="flex">
+                <h2>PREMIUM</h2>
+                <p class="precio">$1000</p>
+                <p>Clases presenciales con todas las medidas de seguridad, incluye clases en linea de repaso por si no pudo tomar la clase presencial y partituras de apoyo.</p>
+                <ul><!--lista desordenada-->
+                    <li>Instrumentos incluidos que se incluyen en esta modalidad:</li>
+                </ul>
+                <ol><!--lista ordenada-->
+                    
+                    <li>Violin</li>
+                    <li>Piano</li>
+                    <li>Guitarra</li>
+                    <li>Saxofón</li>
+                    <li>Trompeta</li>
+                    <li>Chelo</li>
+                    
+                </ol> 
+                <hr>
+                <a href="#" class="btnprecio">Comprar</a>
+            </div>
+             
+            <div class="columna3" id="flex">
+                <h2>PLATINO</h2>
+                <p class="precio">$950</p>
+                <p>Transmisiones en vivo con profesores expertos, las clases se quedan guardadas, se pueden vizualizar las 24 horaas del dia y partituras de apoyo.</p>
+                <ul><!--lista desordenada-->
+                    <li>Instrumentos incluidos que se incluyen en esta modalidad:</li>
+                </ul>
+                <ol><!--lista ordenada-->
+                    
+                    <li>Ukulele</li>
+                    <li>Piano</li>
+                    <li>Guitarra</li>
+                    <li>Flautin</li>
+                    <br><br>
+                    
+                </ol> 
+                <hr>
+                <a href="#" class="btnprecio">Comprar</a>
+            </div>
+
+            <div class="columna3"  id="flex">
+                <h2>BASIC</h2>
+                <p class="precio">$650</p>
+                <p>Clases ya pregrabadas de cursos anteriores y partituras de apoyo.</p>
+                <ul><!--lista desordenada-->
+                    <li>Instrumentos incluidos que se incluyen en esta modalidad:</li>
+                </ul>
+                <ol><!--lista ordenada-->
+                    
+                    <li>Violin</li>
+                    <li>Piano</li>
+                    <li>Guitarra</li>
+                    <li>Saxofón</li>
+                    <li>Trompeta</li>
+                    <li>Chelo</li>
+                    <br>
+                    <br><br>
+                    
+                </ol> 
+                <hr>
+                <a href="#" class="btnprecio">Comprar</a>
+            </div>
+    </section>
+    
+    <p class="separacion">.</p><!--ejemplo -->
+    
+    <a name="producto"></a>
+    <div><!--division-->
+        <table width="80%" border="2 solid" align="center" cellpadding="20" BGCOLOR ="mistyrose">
+            <caption><h3>Click sobre el enlace del producto de su interés para ver detalles.</h3></caption>
+            
+            <thead>
+                <tr>
+                    <td colspan="3" align="center">ARTICULOS DE MUSICA DISPONIBLES</td>
+                    
+                </tr>
+            </thead>
+            <tbody align="center">
+                <tr>
+                    <th>NOMBRE</th>
+                    <th>IMAGEN</th>
+                    <th>INFORMACION</th>
+                </tr>
+                <tr>
+
+                    <th>GUITARRA</th><!--th es para resaltar-->
+                    <td><img src="GUITARRA.png" alt="GUITARRA" width="200" height="200" border="7"></td>
+                    <td><a href="https://www.alhambraguitarras.com/upload/files/docs/jmsq_manual-guitarra-alhambra.pdf">MÁS INFORMACIÓN</a></td>
+                </tr>
+                <tr>
+                    <th>AMPLIFICADOR</th><!--representa una celda -->
+                    <td><img src="amplificador.png" alt="amplificador" width="200" height="200" border="7"></td>
+                    <td><a href="http://www.casaveerkamp.net/archivos/L20H.pdf">MÁS INFORMACIÓN</a></td>
+                </tr>
+                <tr>
+                    <th>VIOLIN 3/4</th><!--representa una celda -->
+                    <td><img src="VIOLIN.png" alt="VIOLIN" width="200" height="200" border="7"></td>
+                    <td><a href="https://es.yamaha.com/files/download/other_assets/4/313384/06_violin_S_0702.pdf">MÁS INFORMACIÓN</a></td>
+                </tr>
+                <tr>
+                    <th>MICROFONO</th><!--representa una celda -->
+                    <td><img src="MICRO.png" alt="MICROFONO" width="200" height="200" border="7"></td>
+                    <td><a href="https://pubs.shure.com/guide/MVL/es-ES.pdf">MÁS INFORMACIÓN</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+        <p class="separacion">.</p><!--ejemplo -->
+            
+  
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    
+        </div>
+        <a name="Contacto"></a>
+    <div ><!--division-->
+        <table class="tabla2" align="center"  >
+            <caption><h3>Agradecemos su interés en nuestros servicios, si desea más información comuniquese con nosotros en nuestras redes sociales</h3></caption>
+            <tbody align="center">
+                <tr >
+                        <!--th es para resaltar-->
+                    <td ><i class="fas fa-map-marker-alt fa-3x" ></i><br><br>Calle 1509 no.7 secc.6 San Juan de Aragon</td>
+                        
+                    <td><i class="fas fa-phone-alt fa-3x"></i><br><br> (55) 5120 9073/ 5711 5662</b>
+                    </td>
+
+                    <td rowspan="3" >
+                        <!-- Section: form dark -->
+                        <section class="form-dark mb-5">
+                        
+                          <!--Form without header-->
+                          
+                            <div class="text-white rgba-stylish-strong py-5 px-5 z-depth-4">
+                        
+                              <!--Header-->
+                              <div class="text-center">
+                                <h3 class="white-text mb-5 mt-4 font-weight-bold text-uppercase"><strong>Contacto</strong> <a class="green-text font-weight-bold"><strong>
+                                     
+                              </div>
+                        
+                              <div class="md-form">
+                                <input type="text" id="form100" class="form-control">
+                                <label for="form100">NOMBRE</label>
+                              </div>
+                        
+                              <div class="md-form">
+                                <input type="text" id="form101" class="form-control">
+                                <label for="form101">E-MAIL</label>
+                              </div>
+                        
+                              <div class="md-form">
+                                <input type="text" id="form102" class="form-control">
+                                <label for="form102">ASUNTO</label>
+                              </div>
+                        
+                              <div class="md-form">
+                                <textarea id="form103" class="md-textarea form-control" rows="5"></textarea>
+                                <label for="form103">MENSAJE</label>
+                              </div>
+                        
+                              <!--Grid row-->
+                              <div class="row d-flex align-items-center">
+                        
+                                <!--Grid column-->
+                                <div class="text-center col-md-12 mt-3 mb-2">
+                                  <button type="button" class="btn btn-success btn-block btn-rounded z-depth-1">Send</button>
+                                </div>
+                                <!--Grid column-->
+                              </div>
+                              <!--Grid row-->
+                        
+                            </div>
+                          </div>
+                          <!--/Form without header-->
+                        
+                        </section>
+                        <!-- Section: form dark --></td>
+                </tr>
+                <tr> 
+                    <td ><i class="fas fa-envelope fa-3x"></i><br>
+                    <br><b>namacademy@gmail.com</b><!--th es para resaltar--></td>
+                   
+                    <td><i class="fab fa-facebook-square fa-3x"></i><br><br>
+                    <a href="https://www.facebook.com/Termomir-110314170785223/">Namacademy Oficial</a></td>
+                </tr>
+                <tr>
+                    
+                    <td colspan="2"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d940.4380548877629!2d-99.07047354872213!3d19.4662470036366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fbbc9e6d90d1%3A0x8296d18ac46b410d!2sCalle%201509%207%2C%20San%20Juan%20de%20Arag%C3%B3n%20VI%20Secc%2C%20Gustavo%20A.%20Madero%2C%2007918%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1623714215663!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></td>
+                </tr>
+
+               
+            </tbody>
+        </table>
+    </div>
+ 
+</body><!--aqui se termina el cuerpo del programa-->
+</html>

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es"><!--Declaramos el idioma con el que vamos a trabajar -->
+<head> <!-- cabecera del documento, lo que no se muestra -->
+    <meta charset="UTF-8"> <!-- metadato que indica al servidor que el contenido de la pagina es UTF-8 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- compatibilidad del navegador  -->
+    <meta name="Author" content="Ana Namour">
+    <meta name="Descripcion" content="termomirventila es una empresa de aire aconcicionado y ventilacion industrial para cualquier espacio.">
+    <!-- metadato que da una descripcion de la pagina -->
+    <title>TERMOMIR INGENIERIA</title> <!--Titulo de la pagina web-->
+    <link rel="stylesheet" href="estilos.css"><!--libreria css-->
+    <link rel="stylesheet" href="css/colores.css"><!--libreria css-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap" rel="stylesheet"><!--fuente de letra de google-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Zilla+Slab:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Merriweather:ital,wght@1,900&family=Zilla+Slab:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Merriweather:ital,wght@1,900&family=Zilla+Slab:ital@1&display=swap" rel="stylesheet">
+    
+</head>     <!--Aqui acaba la cabecera-->
+
+
+<body> <!-- empieza el cuerpo de la pagina -->
+    
+    <header><!-- encabezado de la pagina -->
+        <nav><!-- seccion que proporciona enlaces de navegacion -->
+            <buttom class="nav-boton" onclick="accion()">Menú</buttom>
+            <a href="#inicio" class="nav1 desaparece">Inicio</a> <!-- se crean enlaces internos -->
+            <a href="#Aire"   class="nav1 desaparece">Aire Acondicionado Carrier Ingenieria Carrier</a>
+            <a href="#SYP"    class="nav1 desaparece">Ventiladores Extractores Soler y Palau CDMX</a>
+            <a href="#AC"     class="nav1 desaparece">Ventiladores Extractores Armee-Chicago CDMX</a>
+            <a href="#Contacto" class="nav1 desaparece">Contacto</a>
+        </nav>
+    </header>
+
+    <a name="inicio"></a><!-- aqui se ubicara el usuario al presionar el enlace de inicio que estaba en el nav -->
+    <section class= "padre"><!-- se crea una seccion con una clase llamada padre -->
+        <video src="video.mp4" width="2000" height="500" autoplay loop muted></video><!--se agrega una imagen, alt nos ayuda por si la imagen no esta disponible-->
+       <!-- <p id="columna"> se crea un parrafo con un id llamado columna 
+            <h1><b>Aire acondicionado y ventilación industrial</b></h1>
+            
+            
+        </p>-->
+        
+    </section>
+
+    <p class="separacion">.</p><!--se hizo un parrafo que se utiliza como separacion -->
+    
+    <a name="Aire"></a>
+    <section class= "padre">
+        <p class="columna2">
+            <img src="aire.jpg" alt="Aire acondicionado" width="600" height="500" border="10"><!--se agrega una imagen, alt nos ayuda por si la imagen no esta disponible-->
+            
+            <div>
+                <h2><b>Aire acondicionado</b></h2><!--titutlo-->
+                <h3 class="lista">
+                    <ul><!--lista desordenada-->
+                        <li>Aire acondicionado</li>
+                        <li>Hidraulico y tuberias</li>
+                        <li>Sanitario y bombeo</li>
+                        <li>Equipos y suministros</li>
+                        <li>Proyectos de Ingenieria</li>
+                        
+                    </ul>                  
+            
+                </h3>
+                <h2><b>Ingenieria</b></h2><!--titutlo-->
+                <h3 class="lista">
+                    
+                    <ol><!--lista ordenada-->
+                        <li>Levantamientos Físicos en Obra.</li>
+                        <li>Cuantificación de Volumen de Obra.</li>
+                        <li>Estudios de Transferencias de Calor.</li>
+                    </ol>
+
+                </h3>
+            </div>
+           
+        </p>
+        
+    </section>
+
+    <p class="separacion">.</p><!--ejemplo -->
+
+    <a name="SYP"></a>
+    <section class="padre">
+        <p class="columna3">
+            Fabricantes de ventiladores axiales y centrifugos cualquier tamaño tipo industrial trabajo pesado heavy duty.
+            Somos fabricantes de ventiladores tipo hongo, de tejado, aire lavado o evaporativo, cortinas de aire comercial
+        </p>
+        <p class="columna2">
+            <img src="ventiladores.jpg" alt="Aire acondicionado" width="400" height="300" border="7"><!--se agrega una imagen, alt nos ayuda por si la imagen no esta disponible-->
+        </p>
+        <p class="columna3">
+            <b>Termomir</b>, nos especializamos en Ventilación tanto a nivel Industrial como Comercial y como Especialistas en Ventilación, entendemos que debemos poner nuestros conocimientos al servicio de Clientes y Prescriptores.
+        </p>
+    </section>
+    
+    <p class="separacion">.</p><!--ejemplo -->
+    
+    <a name="AC"></a>
+    <div><!--division-->
+        <table width="80%" border="2 solid" align="center" cellpadding="20" BGCOLOR ="mistyrose">
+            <caption><h3>Click sobre el enlace del ventilador de su interés para ver detalles.</h3></caption>
+            
+            <thead>
+                <tr>
+                    <td colspan="3" align="center">VENTILADORES EXTRACTORES ARMEE-CHICAGO CDMX</td>
+                    
+                </tr>
+            </thead>
+            <tbody align="center">
+                <tr>
+                    <th>NOMBRE</th>
+                    <th>IMAGEN</th>
+                    <th>INFORMACION</th>
+                </tr>
+                <tr>
+
+                    <th>Diseño 10</th><!--th es para resaltar-->
+                    <td><img src="10.png" alt="Aire acondicionado" width="200" height="200" border="7"></td>
+                    <td><a href="http://caribecomercial.com/wp-content/uploads/2015/09/Diseo_10.pdf">MÁS INFORMACIÓN</a></td>
+                </tr>
+                <tr>
+                    <th>Diseño 13</th><!--representa una celda -->
+                    <td><img src="3.png" alt="Aire acondicionado" width="200" height="200" border="7"></td>
+                    <td><a href="http://caribecomercial.com/wp-content/uploads/2015/09/Diseo_13.pdf">MÁS INFORMACIÓN</a></td>
+                </tr>
+                <tr>
+                    <th>Diseño 15</th><!--representa una celda -->
+                    <td><img src="15.png" alt="Aire acondicionado" width="200" height="200" border="7"></td>
+                    <td><a href="http://caribecomercial.com/en/wp-content/uploads/2015/09/Diseo_15.pdf">MÁS INFORMACIÓN</a></td>
+                </tr>
+                <tr>
+                    <th>Diseño 16</th><!--representa una celda -->
+                    <td><img src="16.png" alt="Aire acondicionado" width="200" height="200" border="7"></td>
+                    <td><a href="http://caribecomercial.com/wp-content/uploads/2015/09/Diseo_16_E.pdf">MÁS INFORMACIÓN</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+        <p class="separacion">.</p><!--ejemplo -->
+
+        <a name="Contacto"></a>
+        <h2>Contacto</h2>
+    <div><!--division-->
+        <table class="tabla2" align="center"  >
+            <caption><h3>Agradecemos su interés en nuestros servicios, si desea más información marquenos o mandenos mensaje por nuestra pagina de Facebook</h3></caption>
+            <tbody align="center">
+                <tr>
+                    <td><img src="tel.jpg" alt="Telefonos" width="100" height="100" border="7"></td>
+                    <th>TELÉFONO
+                        (55) 5120 9073/ 5711 5662</th><!--th es para resaltar-->
+                    
+                </tr>
+                <tr> 
+                    <td><img src="cel.jpg" alt="Celular" width="100" height="100" border="7"></td>
+                    <th><b>CELULAR</b> (55) 1242 2756</th><!--th es para resaltar-->
+                </tr>
+                <tr>
+                    <td><img src="face.jpg" alt="Facebook" width="100" height="100" border="7"></td>
+                    <td><a href="https://www.facebook.com/Termomir-110314170785223/">Facebook</a></td>
+                </tr>
+               
+            </tbody>
+        </table>
+    </div>
+
+    <p class="separacion">.</p><!--ejemplo -->
+
+
+    <!--se utiliza un script para utilizar javascript y que realice una accion-->
+    <script>
+        function accion(){
+            console.log('Esta fucnionando mi boton');
+            var ancla = document.getElementsByClassName('nav1'); /*en la variable ancla se guarda la accion a realizar*/
+            for(var i=0; i<ancla.length; i++){
+                ancla[i].classList.toggle('desaparece'); /*el ciclo for toma la primera ancla y coloca la clase desaparece, se hace en un for porque son varias anclas*/
+            }
+        }
+    </script>
+    
+</body><!--aqui se termina el cuerpo del programa-->
+</html>

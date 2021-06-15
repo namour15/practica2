@@ -1,0 +1,179 @@
+
+header{
+    background-position: center center;
+    background: url(fondo.jpg);
+    background-size: cover;
+    height: 100px;
+    width: 100%;
+    margin: 10px 10px 10px 10px ;   
+}
+
+h1{
+    margin: 50px 10px 20px 50px ; /* margen externo */
+    font-size: 500%;
+    text-align: left;
+    font-family: 'Merriweather', serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    /* background: #8f4f4f; */
+    padding: 20px;
+    margin: 10px;
+    
+}
+.nav1{
+    display: inline-block;
+    background: #2ebee6;
+    color: #fff;
+    padding: 5px 20px; /* margen interno  */
+    text-decoration: none; /* se le quita la linea de abajo que tiene */
+    border: solid 1em #14708a;
+    border-radius: 2em;
+}
+
+.nav1:hover{/* diferente color cuando se pasa el mouse */
+    background: #f2b4b4;
+}
+
+.nav-boton{
+    background: #2ebee6;
+    color: #fff;
+    padding: 10px 0;
+    text-decoration: none; /* se le quita la linea de abajo que tiene */
+    border: groove 1em #14708a;
+    border-radius: 2em;
+    display: none;
+    text-align: center;
+    
+}
+
+.padre{
+    /* display: inline-block; */
+     display: flex;    /* su display es flexible */
+}
+
+#columna{
+    background: #3a8ca3;
+    padding: 10px;
+    width: 15%;
+    margin: 10px;
+}
+
+video{
+    position: flex;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    
+}
+
+.separacion{
+    background: #082f4e;
+     margin: 30px 20px 20px 20px ;
+     /* margin-bottom: 20px; */ 
+     /* margen inferior de los elementos */
+     padding: 0px; /* margen interno  */
+     font-size: 100%;
+}
+
+h2{
+    color:#5EAAA8;
+    font-size: 50px;
+    font-family: 'Merriweather', serif;
+    font-family: 'Zilla Slab', serif;
+
+}
+
+h3{
+    font-style: italic;
+    font-size: 20px;
+}
+    
+.lista{
+    color:#025955;
+    font-size: 30px;
+    font-family: 'Abel', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Zilla Slab', serif;
+}
+
+.columna2{
+    background: #3a8ca3;
+    padding: 50px;
+    width: 45%;
+    margin: 20px;
+    border: ridge gold;
+    border-radius: 13em/3em;
+}
+
+.columna3{
+    background: #FFAEC0;
+    padding: 20px;
+    width: 45%;
+    margin: 20px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 2em;
+    font-family: 'Abel', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Zilla Slab', serif;
+    border: 15px solid blanchedalmond;
+}
+
+ th,td{
+    font-size: 25px;
+    color: #046582;
+    font-family: 'Abel', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Zilla Slab', serif;
+}
+
+.tabla2{
+    width: 80%;
+    text-align: center;
+    border:indigo 10px solid;
+
+}
+
+button{/* se le asigna un color al boton */
+    background: #4A47A3;
+    color: #8AC4D0;
+    border: 2px solid blanchedalmond;
+}
+
+button:hover{ /* diferente color cuando se pasa el mouse el boton */
+    background: #94EBCD;
+    color: #33837a;
+}
+
+ button:active{     /* diferente color cuando se presiona el boton */
+    background: #073631;
+}
+
+
+/*Media queries*/
+@media(max-width:1062px){ /*despues de los 900 pixeles se hace pequeño el menu*/
+    nav{
+        
+        flex-direction: column; /*indicamos que se pongan como columna, uno debajo de otro*/
+        background: darkblue;    
+        background-position: center center;
+        margin: 10px 0px 0px 0px ;  
+    }
+    .nav1{
+        margin: 5px 0;/*se deja un margen de 5 px y 0 px a los lados*/
+        
+    }
+
+    .nav-boton{
+        display: inline-block;
+        
+    }
+     
+    .desaparece{/*clase para desaparecer los botones*/
+        display: none;
+    }
+}
